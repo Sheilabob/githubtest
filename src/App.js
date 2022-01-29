@@ -4,6 +4,7 @@ import FirstTest from './Components/FirstTest';
 import CustomAccordion from './Components/CustomAccordion';
 import ReactStrapAccordion from './Components/ReactstrapAccordion';
 import ReactBootstrapAccordion from './Components/ReactBootstrapAccordion';
+import MUIAccordion from './Components/MUIAccordion';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <CustomAccordion />
           <ReactStrapAccordion />
           <ReactBootstrapAccordion />
+          <MUIAccordion />
     </div>
   );
 }
