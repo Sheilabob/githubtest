@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import FirstTest from './Components/FirstTest';
+import CustomAccordion from './Components/CustomAccordion';
+import ReactStrapAccordion from './Components/ReactstrapAccordion';
+import ReactBootstrapAccordion from './Components/ReactBootstrapAccordion';
 
 function App() {
   return (
@@ -16,8 +20,14 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
         </a>
+       
       </header>
+      <FirstTest />
+          <CustomAccordion />
+          <ReactStrapAccordion />
+          <ReactBootstrapAccordion />
     </div>
   );
 }
